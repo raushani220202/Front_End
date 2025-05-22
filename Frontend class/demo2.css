@@ -1,0 +1,52 @@
+div{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: solid ;
+    padding: 5px;
+    border-radius: 20%;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+}
+u1{
+    display :flex;
+    justify-content: center;
+    margin-top: 3px;
+    justify-items: end;
+}
+    
+}
+.d1{
+    height:400px ;
+    width:400px ;
+    display:flex ;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.d2{
+    height:200px ;
+    width:200px ;
+    display:flex ;
+    background-color: blue;
+    border-radius: 10%;
+}
+.d2:hover{
+    zoom: 120%;
+    background-color: rgb(99, 99, 177);
+}
+.navbar{
+    border-radius: 10%;
+    display: flex;
+    justify-content: end;
+    align-items:flex-end;
+
+}

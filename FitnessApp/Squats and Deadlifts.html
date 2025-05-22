@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Squats & Deadlifts</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-image: url("gym-background.jpg"); /* Change to your preferred background */
+        background-size: cover;
+        background-position: center;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        color: #d32f2f;
+      }
+
+      .step {
+        background: #ffccbc;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 5px;
+        font-size: 18px;
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+      }
+
+      .step:hover {
+        transform: scale(1.05);
+        background: #e57373;
+      }
+
+      .step-number {
+        font-weight: bold;
+        color: #b71c1c;
+      }
+
+      .step-image {
+        width: 100%;
+        max-width: 300px;
+        display: none;
+        margin: 10px 0;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: opacity 0.5s ease-in-out;
+      }
+
+      a {
+        display: inline-block;
+        margin-top: 20px;
+        text-decoration: none;
+        color: white;
+        background: #007bff;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: background 0.3s;
+      }
+
+      a:hover {
+        background: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>🏋️ Squats & Deadlifts Workout</h1>
+
+      <div class="step" onclick="toggleImage('img1')">
+        <span class="step-number">Step 1:</span> Bodyweight Squats (3 sets of 15
+        reps)
+      </div>
+      <img
+        id="img1"
+        class="step-image"
+        src="weightlift.jpg"
+        alt="Squat Exercise Image"
+      />
+
+      <div class="step" onclick="toggleImage('img2')">
+        <span class="step-number">Step 2:</span> Goblet Squats (3 sets of 12
+        reps)
+      </div>
+      <img
+        id="img2"
+        class="step-image"
+        src="globet.jpg"
+        alt="Goblet Squat Image"
+      />
+
+      <div class="step" onclick="toggleImage('img3')">
+        <span class="step-number">Step 3:</span> Barbell Back Squats (4 sets of
+        8 reps)
+      </div>
+      <img
+        id="img3"
+        class="step-image"
+        src="Barbell Back Squats.jpg"
+        alt="Barbell Squat Image"
+      />
+
+      <div class="step" onclick="toggleImage('img4')">
+        <span class="step-number">Step 4:</span> Romanian Deadlifts (3 sets of
+        10 reps)
+      </div>
+      <img
+        id="img4"
+        class="step-image"
+        src="romanian-deadlift.avif"
+        alt="Romanian Deadlift Image"
+      />
+
+      <div class="step" onclick="toggleImage('img5')">
+        <span class="step-number">Step 5:</span> Conventional Deadlifts (4 sets
+        of 6 reps)
+      </div>
+      <img
+        id="img5"
+        class="step-image"
+        src="deadlift.jpg"
+        alt="Deadlift Image"
+      />
+
+      <div class="step" onclick="toggleImage('img6')">
+        <span class="step-number">Step 6:</span> Sumo Deadlifts (4 sets of 6
+        reps)
+      </div>
+      <img
+        id="img6"
+        class="step-image"
+        src="sumo.jpg"
+        alt="Sumo Deadlift Image"
+      />
+    </div>
+
+    <a href="loose.html">Back to Loose Page</a>
+
+    <script>
+      function toggleImage(imageId) {
+        // Hide all images first
+        var images = document.querySelectorAll(".step-image");
+        images.forEach((img) => {
+          if (img.id !== imageId) {
+            img.style.display = "none";
+          }
+        });
+
+        // Toggle visibility of the clicked image
+        var img = document.getElementById(imageId);
+        if (img.style.display === "none" || img.style.display === "") {
+          img.style.display = "block";
+        } else {
+          img.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>

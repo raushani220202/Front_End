@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+#logo{
+    color: #f08811;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    margin-right: 200px;
+}
+button{
+background-color: #f08811;
+}
+.contentBox1{
+    height: 490px;
+    width: 490px;
+    border: 4px solid black;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: white;
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.O_G1-HY5_VJ3zyrXyN-JkAHaKi&pid=Api&P=0&h=220");
+    background-size: cover;
+}
+.contentBox2{
+    height: 490px;
+    width: 490px;
+    border: 4px solid black;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: white;
+    background-image: url("https://i.pinimg.com/originals/c6/a0/ce/c6a0ce782c5188c9b5b1c8c7997b1e02.jpg");
+    background-size: cover;
+}
+.contentBox3{
+    height: 490px;
+    width: 490px;
+    border: 4px solid black;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: white;
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.7b-YoeUwsnR4N56uE_pDVgHaHa&pid=Api&P=0&h=220");
+    background-size: cover;
+}
+.contentBox4{
+    height: 490px;
+    width: 490px;
+    border: 4px solid black;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: white;
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.IlZCPGbuVC0l4Yu3hfx4tAHaJQ&pid=Api&P=0&h=220");
+    background-size: cover;
+}
+.contentBox5{
+    height: 490px;
+    width: 490px;
+    border: 4px solid black;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: white;
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.YJJWr5UDopoq0hBfAXf6bgHaHY&pid=Api&P=0&h=220");
+    background-size: cover;
+}
+.contentBox6{
+    height: 490px;
+    width: 490px;
+    border: 4px solid black;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: white;
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.IAyt9Ds6-fekmAAx8cO54AHaJZ&pid=Api&P=0&h=220");
+    background-size: cover;
+}
+footer{
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+}

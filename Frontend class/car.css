@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(75, 33, 114);
+}
+div{
+    border-radius: 10px;
+}
+.car{
+    height: 250px;
+    width: 500px;
+    text-align: center;
+    color: white;
+    background-color: rgb(165, 128, 165);
+    border : 50 px solid brown;
+    margin: 50px;
+    padding: 50px;
+}
+img{
+    height: 250px;
+    width: 440px;
+    border-radius: 50px;
+}
+#div1{
+    color: cornsilk;
+    background-color: black;
+    font-size: 20px;
+}
+#div1 h1,h2{
+    text-align: center;
+}
